@@ -72,6 +72,8 @@
 
 ---
 
+<!---
+
 ### UI OVERVIEW
 
 <div align="center">
@@ -88,7 +90,7 @@
     <img src="doc/pages/public/w6.png" width="100%" height="auto" alt="RAVEN UI">
 </div>
 
----
+--->
 
 ## <img src="https://cdn.simpleicons.org/gnubash/ff0000" width="18"> Features
 
