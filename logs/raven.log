@@ -1,0 +1,269 @@
+  [2026-07-08 23:23:34] [INFO] Mode: MULTI | Interface: CLI
+  [2026-07-08 23:23:34] [INFO] DB disabled — using in-memory store
+  [2026-07-08 23:23:34] [INFO] Server started — 0.0.0.0:4444 [MULTI]
+  [2026-07-08 23:24:16] [INFO] Server stopped [MULTI]
+  [2026-07-09 01:01:34] [INFO] Mode: MULTI | Interface: CLI
+  [2026-07-09 01:01:34] [INFO] DB disabled — using in-memory store
+  [2026-07-09 01:01:35] [INFO] Server started — 0.0.0.0:4444 [MULTI]
+  [2026-07-09 01:01:44] [INFO] Server stopped [MULTI]
+  [2026-07-09 01:17:23] [INFO] Mode: MULTI | Interface: CLI
+  [2026-07-09 01:17:23] [INFO] DB disabled — using in-memory store
+  [2026-07-09 01:17:23] [INFO] Server started — 0.0.0.0:4444 [MULTI]
+  [2026-07-09 01:17:46] [INFO] Server stopped [MULTI]
+  [2026-07-09 01:21:14] [INFO] Mode: MULTI | Interface: CLI
+  [2026-07-09 01:21:14] [INFO] DB disabled — using in-memory store
+  [2026-07-09 01:21:14] [INFO] Server started — 0.0.0.0:4444 [MULTI]
+  [2026-07-09 01:22:04] [INFO] Server stopped [MULTI]
+  [2026-07-09 01:34:31] [INFO] Mode: MULTI | Interface: CLI
+  [2026-07-09 01:34:31] [INFO] DB disabled — using in-memory store
+  [2026-07-09 01:34:31] [INFO] Server started — 0.0.0.0:4444 [MULTI]
+  [2026-07-09 01:48:32] [INFO] Connection [RAW] from /127.0.0.1:38496
+  [2026-07-09 01:48:32] [INFO] [+] Session-1 [REVERSE_SHELL] matrixtm26@MatrixTM26 Linux key=_r_1SdkMS7m26TTiKeE06KnJ
+  [2026-07-09 01:48:32] [INFO] [+] Session-1 | REVERSE_SHELL | matrixtm26@MatrixTM26 | Linux | enc=false mtls=false
+  [2026-07-09 01:49:31] [INFO]   Type 'back' to return
+  [2026-07-09 01:50:39] [INFO]   Type 'back' to return
+  [2026-07-09 01:51:03] [INFO] Server stopped [MULTI]
+  [2026-07-09 01:56:46] [INFO] Mode: MULTI | Interface: CLI
+  [2026-07-09 01:56:46] [INFO] DB disabled — using in-memory store
+  [2026-07-09 01:56:46] [INFO] Server started — 0.0.0.0:4444 [MULTI]
+  [2026-07-09 01:57:00] [INFO] Server stopped [MULTI]
+  [2026-07-09 01:57:56] [INFO] Mode: MULTI | Interface: CLI
+  [2026-07-09 01:57:56] [INFO] DB disabled — using in-memory store
+  [2026-07-09 01:57:56] [INFO] Server started — 0.0.0.0:4444 [MULTI]
+  [2026-07-09 01:57:56] [INFO] [31m[2026-07-09 01:57:56][0m [37m  Server listening on 0.0.0.0:4444[0m
+  [2026-07-09 01:57:59] [INFO] 
+  [37m┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐[0m
+  [37m|                                                               [32mCOMMAND REFERENCE                                                               [37m|[0m
+  [37m└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘[0m
+  [2026-07-09 01:58:11] [INFO] 
+  [37m┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐[0m
+  [37m|                                                                  [32mRECENT LOGS                                                                  [37m|[0m
+  [37m└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘[0m
+  [2026-07-09 01:58:11] [INFO]   [31m[2026-07-09 01:57:56][0m [37m  Server listening on 0.0.0.0:4444[0m
+  [2026-07-09 02:01:13] [INFO] Server stopped [MULTI]
+  [2026-07-09 02:01:16] [INFO] Mode: MULTI | Interface: CLI
+  [2026-07-09 02:01:16] [INFO] DB disabled — using in-memory store
+  [2026-07-09 02:01:17] [INFO] Server started — 0.0.0.0:4444 [MULTI]
+  [2026-07-09 02:01:17] [INFO] [31m[2026-07-09 02:01:17][0m [37m  Server listening on 0.0.0.0:4444[0m
+  [2026-07-09 02:01:21] [INFO] 
+  [37m┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐[0m
+  [37m|                                                                [32mACTIVE SESSIONS                                                                [37m|[0m
+  [37m└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘[0m
+  [2026-07-09 02:01:21] [INFO]   No active sessions
+
+  [2026-07-09 02:01:26] [INFO] Server stopped [MULTI]
+  [2026-07-09 02:03:20] [INFO] Mode: MULTI | Interface: CLI
+  [2026-07-09 02:03:20] [INFO] DB disabled — using in-memory store
+  [2026-07-09 02:03:20] [INFO] Server started — 0.0.0.0:4444 [MULTI]
+  [2026-07-09 02:03:20] [INFO] [31m[2026-07-09 02:03:20][0m [37m  Server listening on 0.0.0.0:4444[0m
+  [2026-07-09 02:03:27] [INFO] 
+  [37m┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐[0m
+  [37m|                                                                [32mACTIVE SESSIONS                                                                [37m|[0m
+  [37m└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘[0m
+  [2026-07-09 02:03:27] [INFO]   No active sessions
+
+  [2026-07-09 02:03:51] [INFO] Connection [RAW] from /127.0.0.1:55764
+  [2026-07-09 02:03:51] [INFO] [+] Session-1 [REVERSE_SHELL] matrixtm26@MatrixTM26 Linux key=XMSXgjNKVkT1AIcG3qSCmPgt
+  [2026-07-09 02:03:51] [INFO] [+] Session-1 | REVERSE_SHELL | matrixtm26@MatrixTM26 | Linux | enc=false mtls=false
+  [2026-07-09 02:03:51] [INFO] [31m[2026-07-09 02:03:51][0m [32m  [MatrixTM26] SESSION-1 key: XMSXgjNKVkT1AIcG3qSCmPgt (Linux)[0m
+  [2026-07-09 02:03:58] [INFO] 
+  [37m┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐[0m
+  [37m|                                                                [32mACTIVE SESSIONS                                                                [37m|[0m
+  [37m└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘[0m
+  [2026-07-09 02:03:58] [INFO]   [37m─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────[0m
+  [2026-07-09 02:05:03] [INFO] 
+  [37m┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐[0m
+  [37m|                                                                 [32mSERVER STATUS                                                                 [37m|[0m
+  [37m└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘[0m
+  [2026-07-09 02:08:37] [INFO] Server stopped [MULTI]
+  [2026-07-09 02:26:45] [INFO] Mode: MULTI | Interface: CLI
+  [2026-07-09 02:26:45] [INFO] DB disabled — using in-memory store
+  [2026-07-09 02:26:45] [INFO] Server started — 0.0.0.0:4444 [MULTI]
+  [2026-07-09 02:26:45] [INFO] [31m[2026-07-09 02:26:45][0m [37m  Server listening on 0.0.0.0:4444[0m
+  [2026-07-09 02:27:04] [INFO]   No active sessions
+
+  [2026-07-09 02:27:16] [INFO] Connection [RAW] from /127.0.0.1:53490
+  [2026-07-09 02:27:16] [INFO] [+] Session-1 [REVERSE_SHELL] matrixtm26@MatrixTM26 Linux key=hhYm6edVItPO19zXp7U0k4oX
+  [2026-07-09 02:27:16] [INFO] [+] Session-1 | REVERSE_SHELL | matrixtm26@MatrixTM26 | Linux | enc=false mtls=false
+  [2026-07-09 02:27:16] [INFO] [31m[2026-07-09 02:27:16][0m [32m  [MatrixTM26] SESSION-1 key: hhYm6edVItPO19zXp7U0k4oX (Linux)[0m
+  [2026-07-09 02:27:34] [INFO]   Type 'back' to return
+  [2026-07-09 02:37:03] [INFO] Server stopped [MULTI]
+  [2026-07-09 02:37:39] [INFO] Mode: MULTI | Interface: CLI
+  [2026-07-09 02:37:39] [INFO] DB disabled — using in-memory store
+  [2026-07-09 02:37:39] [INFO] Server started — 0.0.0.0:4444 [MULTI]
+  [2026-07-09 02:37:39] [INFO] [2026-07-09 02:37:39] [37m  Server listening on 0.0.0.0:4444[0m
+  [2026-07-09 02:38:06] [INFO]   No active sessions
+
+  [2026-07-09 02:38:10] [INFO]   Usage: sysinfo <session-id>
+  [2026-07-09 02:38:19] [INFO] Connection [RAW] from /127.0.0.1:47250
+  [2026-07-09 02:38:19] [INFO] [+] Session-1 [REVERSE_SHELL] matrixtm26@MatrixTM26 Linux key=zEyYRnvRF9dYKFDmKl4R0Iqc
+  [2026-07-09 02:38:19] [INFO] [+] Session-1 | REVERSE_SHELL | matrixtm26@MatrixTM26 | Linux | enc=false mtls=false
+  [2026-07-09 02:38:19] [INFO] [2026-07-09 02:38:19] [32m  [MatrixTM26] SESSION-1 key: zEyYRnvRF9dYKFDmKl4R0Iqc (Linux)[0m
+  [2026-07-09 02:39:10] [INFO]   [31mRoles:[0m
+  [2026-07-09 02:39:20] [INFO] Server stopped [MULTI]
+  [2026-07-09 02:45:34] [INFO] Mode: MULTI | Interface: CLI
+  [2026-07-09 02:45:34] [INFO] DB disabled — using in-memory store
+  [2026-07-09 02:45:34] [INFO] Server started — 0.0.0.0:4444 [MULTI]
+  [2026-07-09 02:45:34] [INFO] [2026-07-09 02:45:34] [37mServer listening on 0.0.0.0:4444[0m
+  [2026-07-09 02:45:40] [ERROR] Unknown command: log
+  [2026-07-09 02:45:40] [INFO] Type 'help' for available commands
+  [2026-07-09 02:45:48] [INFO]   [2026-07-09 02:45:34] [37mServer listening on 0.0.0.0:4444[0m
+  [2026-07-09 02:51:32] [INFO] Server stopped [MULTI]
+  [2026-07-09 02:52:23] [INFO] Mode: MULTI | Interface: CLI
+  [2026-07-09 02:52:23] [INFO] DB disabled — using in-memory store
+  [2026-07-09 02:52:23] [INFO] Server started — 0.0.0.0:4444 [MULTI]
+  [2026-07-09 02:52:23] [INFO] [2026-07-09 02:52:23][37mServer listening on 0.0.0.0:4444[0m
+  [2026-07-09 02:52:48] [INFO] Server stopped [MULTI]
+  [2026-07-09 03:24:36] [INFO] Generating 10 agents — prefix: agent
+  [2026-07-09 03:24:36] [ERROR] CA not found: certs/ca.p12
+  [2026-07-09 03:24:36] [WARN] Run: java -jar target/raven-3.0.0.jar -i
+  [2026-07-09 03:24:48] [INFO] Initializing certificate infrastructure
+  [2026-07-09 03:24:48] [INFO] Generating new Certificate Authority
+  [2026-07-09 03:24:52] [OK] CA created — CN=RAVEN Root CA,O=RAVEN Frameworks V3,OU=ManInTheMatrix,L=DarkNet,ST=Cybertron,C=US
+  [2026-07-09 03:24:52] [INFO] Generating server certificate
+  [2026-07-09 03:24:52] [OK] Server certificate created — CN=RAVEN Server,O=RAVEN Frameworks,OU=ManInTheMatrix,L=DarkNet,ST=Cybertron,C=US
+  [2026-07-09 03:24:52] [OK] Certificate infrastructure ready
+  [2026-07-09 03:24:52] [OK] Certificates stored in: certs
+  [2026-07-09 03:24:52] [INFO] Next: java -jar target/raven-3.0.0.jar -a <agent-id>
+  [2026-07-09 03:25:03] [INFO] Generating 10 agents — prefix: agent
+  [2026-07-09 03:25:03] [INFO] Initializing certificate infrastructure
+  [2026-07-09 03:25:03] [INFO] Loading existing CA: certs/ca.p12
+  [2026-07-09 03:25:03] [INFO] Loading existing server certificate: certs/server.p12
+  [2026-07-09 03:25:04] [OK] Certificate infrastructure ready
+  [2026-07-09 03:25:04] [INFO] Generating agent certificate: Agent-agent-001
+  [2026-07-09 03:25:05] [OK] Agent cert created: certs/agents/Agent-agent-001.p12
+  [2026-07-09 03:25:05] [OK] Agent generated : IMPLANT/AGENT-001
+  [2026-07-09 03:25:05] [INFO]   Source : TomcatAgent.java
+  [2026-07-09 03:25:05] [INFO]   Server : 0.0.0.0:4444  MTLS=false  Lang=JAVA
+  [2026-07-09 03:25:05] [INFO] Initializing certificate infrastructure
+  [2026-07-09 03:25:05] [INFO] Loading existing CA: certs/ca.p12
+  [2026-07-09 03:25:05] [INFO] Loading existing server certificate: certs/server.p12
+  [2026-07-09 03:25:05] [OK] Certificate infrastructure ready
+  [2026-07-09 03:25:05] [INFO] Generating agent certificate: Agent-agent-002
+  [2026-07-09 03:25:05] [OK] Agent cert created: certs/agents/Agent-agent-002.p12
+  [2026-07-09 03:25:05] [OK] Agent generated : IMPLANT/AGENT-002
+  [2026-07-09 03:25:05] [INFO]   Source : TomcatAgent.java
+  [2026-07-09 03:25:05] [INFO]   Server : 0.0.0.0:4444  MTLS=false  Lang=JAVA
+  [2026-07-09 03:25:06] [INFO] Initializing certificate infrastructure
+  [2026-07-09 03:25:06] [INFO] Loading existing CA: certs/ca.p12
+  [2026-07-09 03:25:06] [INFO] Loading existing server certificate: certs/server.p12
+  [2026-07-09 03:25:06] [OK] Certificate infrastructure ready
+  [2026-07-09 03:25:06] [INFO] Generating agent certificate: Agent-agent-003
+  [2026-07-09 03:25:06] [OK] Agent cert created: certs/agents/Agent-agent-003.p12
+  [2026-07-09 03:25:06] [OK] Agent generated : IMPLANT/AGENT-003
+  [2026-07-09 03:25:06] [INFO]   Source : TomcatAgent.java
+  [2026-07-09 03:25:06] [INFO]   Server : 0.0.0.0:4444  MTLS=false  Lang=JAVA
+  [2026-07-09 03:25:06] [INFO] Initializing certificate infrastructure
+  [2026-07-09 03:25:06] [INFO] Loading existing CA: certs/ca.p12
+  [2026-07-09 03:25:06] [INFO] Loading existing server certificate: certs/server.p12
+  [2026-07-09 03:25:06] [OK] Certificate infrastructure ready
+  [2026-07-09 03:25:06] [INFO] Generating agent certificate: Agent-agent-004
+  [2026-07-09 03:25:07] [OK] Agent cert created: certs/agents/Agent-agent-004.p12
+  [2026-07-09 03:25:07] [OK] Agent generated : IMPLANT/AGENT-004
+  [2026-07-09 03:25:07] [INFO]   Source : TomcatAgent.java
+  [2026-07-09 03:25:07] [INFO]   Server : 0.0.0.0:4444  MTLS=false  Lang=JAVA
+  [2026-07-09 03:25:07] [INFO] Initializing certificate infrastructure
+  [2026-07-09 03:25:07] [INFO] Loading existing CA: certs/ca.p12
+  [2026-07-09 03:25:07] [INFO] Loading existing server certificate: certs/server.p12
+  [2026-07-09 03:25:07] [OK] Certificate infrastructure ready
+  [2026-07-09 03:25:07] [INFO] Generating agent certificate: Agent-agent-005
+  [2026-07-09 03:25:07] [OK] Agent cert created: certs/agents/Agent-agent-005.p12
+  [2026-07-09 03:25:07] [OK] Agent generated : IMPLANT/AGENT-005
+  [2026-07-09 03:25:07] [INFO]   Source : TomcatAgent.java
+  [2026-07-09 03:25:07] [INFO]   Server : 0.0.0.0:4444  MTLS=false  Lang=JAVA
+  [2026-07-09 03:25:07] [INFO] Initializing certificate infrastructure
+  [2026-07-09 03:25:07] [INFO] Loading existing CA: certs/ca.p12
+  [2026-07-09 03:25:07] [INFO] Loading existing server certificate: certs/server.p12
+  [2026-07-09 03:25:07] [OK] Certificate infrastructure ready
+  [2026-07-09 03:25:07] [INFO] Generating agent certificate: Agent-agent-006
+  [2026-07-09 03:25:07] [OK] Agent cert created: certs/agents/Agent-agent-006.p12
+  [2026-07-09 03:25:07] [OK] Agent generated : IMPLANT/AGENT-006
+  [2026-07-09 03:25:07] [INFO]   Source : TomcatAgent.java
+  [2026-07-09 03:25:07] [INFO]   Server : 0.0.0.0:4444  MTLS=false  Lang=JAVA
+  [2026-07-09 03:25:07] [INFO] Initializing certificate infrastructure
+  [2026-07-09 03:25:07] [INFO] Loading existing CA: certs/ca.p12
+  [2026-07-09 03:25:07] [INFO] Loading existing server certificate: certs/server.p12
+  [2026-07-09 03:25:08] [OK] Certificate infrastructure ready
+  [2026-07-09 03:25:08] [INFO] Generating agent certificate: Agent-agent-007
+  [2026-07-09 03:25:08] [OK] Agent cert created: certs/agents/Agent-agent-007.p12
+  [2026-07-09 03:25:08] [OK] Agent generated : IMPLANT/AGENT-007
+  [2026-07-09 03:25:08] [INFO]   Source : TomcatAgent.java
+  [2026-07-09 03:25:08] [INFO]   Server : 0.0.0.0:4444  MTLS=false  Lang=JAVA
+  [2026-07-09 03:25:08] [INFO] Initializing certificate infrastructure
+  [2026-07-09 03:25:08] [INFO] Loading existing CA: certs/ca.p12
+  [2026-07-09 03:25:08] [INFO] Loading existing server certificate: certs/server.p12
+  [2026-07-09 03:25:08] [OK] Certificate infrastructure ready
+  [2026-07-09 03:25:08] [INFO] Generating agent certificate: Agent-agent-008
+  [2026-07-09 03:25:09] [OK] Agent cert created: certs/agents/Agent-agent-008.p12
+  [2026-07-09 03:25:09] [OK] Agent generated : IMPLANT/AGENT-008
+  [2026-07-09 03:25:09] [INFO]   Source : TomcatAgent.java
+  [2026-07-09 03:25:09] [INFO]   Server : 0.0.0.0:4444  MTLS=false  Lang=JAVA
+  [2026-07-09 03:25:09] [INFO] Initializing certificate infrastructure
+  [2026-07-09 03:25:09] [INFO] Loading existing CA: certs/ca.p12
+  [2026-07-09 03:25:09] [INFO] Loading existing server certificate: certs/server.p12
+  [2026-07-09 03:25:09] [OK] Certificate infrastructure ready
+  [2026-07-09 03:25:09] [INFO] Generating agent certificate: Agent-agent-009
+  [2026-07-09 03:25:09] [OK] Agent cert created: certs/agents/Agent-agent-009.p12
+  [2026-07-09 03:25:09] [OK] Agent generated : IMPLANT/AGENT-009
+  [2026-07-09 03:25:09] [INFO]   Source : TomcatAgent.java
+  [2026-07-09 03:25:09] [INFO]   Server : 0.0.0.0:4444  MTLS=false  Lang=JAVA
+  [2026-07-09 03:25:09] [INFO] Initializing certificate infrastructure
+  [2026-07-09 03:25:09] [INFO] Loading existing CA: certs/ca.p12
+  [2026-07-09 03:25:09] [INFO] Loading existing server certificate: certs/server.p12
+  [2026-07-09 03:25:09] [OK] Certificate infrastructure ready
+  [2026-07-09 03:25:09] [INFO] Generating agent certificate: Agent-agent-010
+  [2026-07-09 03:25:09] [OK] Agent cert created: certs/agents/Agent-agent-010.p12
+  [2026-07-09 03:25:09] [OK] Agent generated : IMPLANT/AGENT-010
+  [2026-07-09 03:25:09] [INFO]   Source : TomcatAgent.java
+  [2026-07-09 03:25:09] [INFO]   Server : 0.0.0.0:4444  MTLS=false  Lang=JAVA
+  [2026-07-09 03:25:09] [INFO] Generated 10/10 agents
+  [2026-07-09 03:25:25] [INFO] Mode: MULTI Interface: CLI
+  [2026-07-09 03:25:25] [INFO] DB disabled — using in-memory store
+  [2026-07-09 03:25:25] [INFO] server started on 127.0.0.1:4444 mode: MULTI]
+  [2026-07-09 03:25:25] [INFO] [2026-07-09 03:25:25][37mServer listening on 127.0.0.1:4444[0m
+  [2026-07-09 03:56:22] [INFO] Server stopped [MULTI]
+  [2026-07-09 03:58:03] [INFO] Mode: MULTI Interface: CLI
+  [2026-07-09 03:58:03] [INFO] DB disabled — using in-memory store
+  [2026-07-09 03:58:03] [INFO] server started on 127.0.0.1:4444. mode: MULTI
+  [2026-07-09 03:58:03] [INFO] [2026-07-09 03:58:03][37m server listening on 127.0.0.1:4444[0m
+  [2026-07-09 03:58:20] [INFO] no active sessions
+  [2026-07-09 03:58:36] [INFO] connection [RAW] from /127.0.0.1:58672
+  [2026-07-09 03:58:36] [INFO] session-1 [REVERSE_SHELL] matrixtm26@MatrixTM26 Linux key=FRCD654PZxjqJc76fTw_xMv-
+  [2026-07-09 03:58:36] [INFO] session-1 | REVERSE_SHELL | matrixtm26@MatrixTM26 | Linux | enc=false mtls=false
+  [2026-07-09 03:58:36] [INFO] [2026-07-09 03:58:36][32m  [MatrixTM26] session-1 key: FRCD654PZxjqJc76fTw_xMv- (Linux)[0m
+  [2026-07-09 03:58:43] [INFO] 1new event(s) - type 'logs' to view
+  [2026-07-09 03:58:53] [INFO]   [2026-07-09 03:58:03][37m server listening on 127.0.0.1:4444[0m
+  [2026-07-09 03:58:53] [INFO]   [2026-07-09 03:58:36][32m  [MatrixTM26] session-1 key: FRCD654PZxjqJc76fTw_xMv- (Linux)[0m
+  [2026-07-09 03:59:31] [INFO] session not found
+  [2026-07-09 03:59:31] [INFO] 1new event(s) - type 'logs' to view
+  [2026-07-09 03:59:40] [INFO]   [2026-07-09 03:58:03][37m server listening on 127.0.0.1:4444[0m
+  [2026-07-09 03:59:40] [INFO]   [2026-07-09 03:58:36][32m  [MatrixTM26] session-1 key: FRCD654PZxjqJc76fTw_xMv- (Linux)[0m
+  [2026-07-09 03:59:40] [INFO]   [2026-07-09 03:59:31][31msession-2 FAIL: session not found[0m
+  [2026-07-09 04:00:59] [INFO] type 'back' to return
+  [2026-07-09 04:01:48] [INFO] returned to main console
+  [2026-07-09 04:02:18] [INFO] DB disabled — using in-memory store
+  [2026-07-09 04:02:18] [INFO] WebApp attached to existing RavenServer on 127.0.0.1:4444
+  [2026-07-09 04:02:18] [INFO] Web Panel Started On http://0.0.0.0:5000
+  [2026-07-09 04:02:18] [INFO] Static Dir : /home/matrixtm26/Downloads/MatrixTM26/PROJECT/RAVEN/config/app/static
+  [2026-07-09 04:02:18] [INFO] Template Dir: /home/matrixtm26/Downloads/MatrixTM26/PROJECT/RAVEN/config/app/templates
+  [2026-07-09 04:03:18] [INFO] Server stopped [MULTI]
+  [2026-07-09 04:03:29] [INFO] Web Panel  : [32mOnline[0m
+  [2026-07-09 04:03:43] [INFO] Web panel stopped
+  [2026-07-09 04:03:48] [ERROR] Unknown command: start
+  [2026-07-09 04:03:48] [INFO] Type 'help' for available commands
+  [2026-07-09 04:04:03] [WARN] session not found
+  [2026-07-09 04:21:29] [INFO] Mode: MULTI Interface: CLI
+  [2026-07-09 04:21:29] [INFO] DB disabled — using in-memory store
+  [2026-07-09 04:21:29] [INFO] server started on 127.0.0.1:4444. mode: MULTI
+  [2026-07-09 04:21:30] [INFO] [2026-07-09 04:21:30][37m server listening on 127.0.0.1:4444[0m
+  [2026-07-09 04:21:34] [INFO]   [2026-07-09 04:21:30][37m server listening on 127.0.0.1:4444[0m
+  [2026-07-09 04:21:37] [INFO] no active sessions
+  [2026-07-09 04:21:45] [INFO] connection [RAW] from /127.0.0.1:52136
+  [2026-07-09 04:21:45] [INFO] session-1 [REVERSE_SHELL] matrixtm26@MatrixTM26 Linux key=eeuHeDZ6ZaVOwICOGgz1hoEJ
+  [2026-07-09 04:21:45] [INFO] session-1 | REVERSE_SHELL | matrixtm26@MatrixTM26 | Linux | enc=false mtls=false
+  [2026-07-09 04:21:45] [INFO] [2026-07-09 04:21:45][32m  [MatrixTM26] session-1 key: eeuHeDZ6ZaVOwICOGgz1hoEJ (Linux)[0m
+  [2026-07-09 04:21:49] [INFO] 1 new event(s) - type 'logs' to view
+  [2026-07-09 04:21:52] [INFO] type 'back' to return
+  [2026-07-09 04:23:16] [INFO] returned to main console
+  [2026-07-09 04:23:26] [INFO] 2 new event(s) - type 'logs' to view
+  [2026-07-09 04:23:32] [INFO] Server stopped [MULTI]
