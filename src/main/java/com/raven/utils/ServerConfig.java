@@ -1,6 +1,5 @@
 package com.raven.utils;
 
-import com.raven.core.output.Logger;
 import java.io.*;
 import java.util.Properties;
 
@@ -86,7 +85,7 @@ public final class ServerConfig {
         try (InputStream In = new FileInputStream(F)) {
             Props.load(In);
         } catch (IOException E) {
-            Logger.Error("Server Config Failed to load: " + Path + ": " + E.getMessage());
+            System.err.println("[ServerConfig] Failed to load " + Path + ": " + E.getMessage());
         }
     }
 

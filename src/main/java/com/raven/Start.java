@@ -46,19 +46,19 @@ public final class Start {
             return;
         }
 
-        if (Args.contains("-m") || Args.contains("-generate-multi-agent")) {
+        if (Args.contains("-m") || Args.contains("-gen-multi")) {
             ShowBanner();
             GenerateMultiAgent(Args);
             return;
         }
 
-        if (Args.contains("-l") || Args.contains("-list-agent")) {
+        if (Args.contains("-l") || Args.contains("-list")) {
             ShowBanner();
             ListAgents();
             return;
         }
 
-        String Revoke = Helper.Arg(Args, "-rm", "-revoke-agent", null);
+        String Revoke = Helper.Arg(Args, "-r", "-revoke", null);
         if (Revoke != null) {
             ShowBanner();
             RevokeAgent(Revoke);
@@ -88,13 +88,13 @@ public final class Start {
         ListenerMode Mode = ResolveMode(Args);
 
         if (Mode.RequiresTls() && !Files.exists(Paths.get(Config.GetKeystorePath()))) {
-            Logger.Error("keystore not found: " + Config.GetKeystorePath());
-            Logger.Warn("run: java -jar target/raven-3.0.0.jar -i");
+            Logger.Error("Keystore not found: " + Config.GetKeystorePath());
+            Logger.Warn("Run: java -jar target/raven-3.0.0.jar -i");
             System.exit(1);
         }
 
         String Interface = ResolveInterface(Args);
-        Logger.Info("mode: " + Mode.name() + " interface: " + Interface.toUpperCase());
+        Logger.Info("Mode: " + Mode.name() + " Interface: " + Interface.toUpperCase());
         StartInterface(Host, Port, Mode, Interface, Args);
     }
 
@@ -148,9 +148,9 @@ public final class Start {
                 }
             }
         } catch (InterruptedException Ignored) {
-            Logger.Warn("server stopped");
+            Logger.Warn("Server stopped");
         } catch (Exception E) {
-            Logger.Error("fatal: " + E.getMessage());
+            Logger.Error("Fatal: " + E.getMessage());
             System.exit(1);
         }
     }
@@ -159,10 +159,10 @@ public final class Start {
         try {
             CertificateManager Mgr = new CertificateManager(Config);
             Mgr.Initialize(Host);
-            Logger.Success("certificates stored in: " + Paths.get(Config.GetKeystorePath()).getParent());
-            Logger.Info("next: java -jar target/raven-3.0.0.jar -a <agent-id>");
+            Logger.Success("Certificates stored in: " + Paths.get(Config.GetKeystorePath()).getParent());
+            Logger.Info("Next: java -jar target/raven-3.0.0.jar -a <agent-id>");
         } catch (Exception E) {
-            Logger.Error("certificate init failed: " + E.getMessage());
+            Logger.Error("Certificate init failed: " + E.getMessage());
         }
     }
 
@@ -179,14 +179,14 @@ public final class Start {
             Mgr.Initialize(Host);
             DeployAgent(AgentId, Mgr.CreateAgentCertificate(AgentId), Host, Port, Mtls, Pers, Hide, Lang);
         } catch (Exception E) {
-            Logger.Error("agent generation failed: " + E.getMessage());
+            Logger.Error("Agent generation failed: " + E.getMessage());
         }
     }
 
     private static void GenerateMultiAgent(List<String> Args) {
         int Count = Helper.ParseInt(Helper.Arg(Args, "-c", "-count", "10"), 10);
         String Prefix = Helper.Arg(Args, "-u", "-prefix", "agent");
-        Logger.Info("generating " + Count + " agents — prefix: " + Prefix);
+        Logger.Info("Generating " + Count + " agents — prefix: " + Prefix);
         int Ok = 0;
         for (int I = 1; I <= Count; I++) {
             String Id = String.format("%s-%03d", Prefix, I);
@@ -194,24 +194,24 @@ public final class Start {
                 GenerateAgent(Id, Args);
                 Ok++;
             } catch (Exception E) {
-                Logger.Error("failed " + Id + ": " + E.getMessage());
+                Logger.Error("Failed " + Id + ": " + E.getMessage());
             }
         }
-        Logger.Info("generated " + Ok + "/" + Count + " agents");
+        Logger.Info("Generated " + Ok + "/" + Count + " agents");
     }
 
     private static void ListAgents() {
         try {
             Path AgentDir = Paths.get(Config.GetAgentCertDir());
             if (!Files.exists(AgentDir)) {
-                Logger.Warn("no agents found — generate with: -a <agent-id>");
+                Logger.Warn("No agents found — generate with: -a <agent-id>");
                 return;
             }
             Files.list(AgentDir)
                 .filter(P -> P.toString().endsWith(".p12"))
                 .forEach(P -> Logger.Info("Agent: " + P.getFileName()));
         } catch (Exception E) {
-            Logger.Error("list agents failed: " + E.getMessage());
+            Logger.Error("List agents failed: " + E.getMessage());
         }
     }
 
@@ -219,7 +219,7 @@ public final class Start {
         try {
             new CertificateManager(Config).RevokeAgentCertificate(AgentId);
         } catch (Exception E) {
-            Logger.Error("revoke failed: " + E.getMessage());
+            Logger.Error("Revoke failed: " + E.getMessage());
         }
     }
 
@@ -263,9 +263,9 @@ public final class Start {
             }
         }
 
-        Logger.Success("agent generated : " + AgentDir);
-        Logger.Info("source : " + com.raven.utils.AgentSourceGen.Filename(LangNorm));
-        Logger.Info("server : " + Host + ":" + Port + "  MTLS=" + Mtls + "  Lang=" + LangNorm.toUpperCase());
+        Logger.Success("Agent generated : " + AgentDir);
+        Logger.Info("  Source : " + com.raven.utils.AgentSourceGen.Filename(LangNorm));
+        Logger.Info("  Server : " + Host + ":" + Port + "  MTLS=" + Mtls + "  Lang=" + LangNorm.toUpperCase());
     }
 
     private static void HandleAddOperator(List<String> Args) {
@@ -273,33 +273,33 @@ public final class Start {
         String Pass = Helper.Arg(Args, "-pw", "-password", null);
         String Role = Helper.Arg(Args, "-r", "-role", "OPERATOR");
         if (User == null || Pass == null) {
-            Logger.Error("usage: -AO | -add-operator -u | -username <user> -pw | -password <pass> [-r | -role ROLE]");
+            Logger.Error("Usage: -AO | -add-operator -u | -username <user> -pw | -password <pass> [-r | -role ROLE]");
             return;
         }
         if (Pass.length() < 8) {
-            Logger.Error("password must be at least 8 characters");
+            Logger.Error("Password must be at least 8 characters");
             return;
         }
         TeamDatabase Db = TeamDatabase.Connect(Config);
         OperatorRole R = OperatorRole.FromString(Role);
         if (Db.CreateOperator(User, TeamDatabase.HashPassword(Pass), R)) Logger.Success("Operator created: " + User + " [" + R + "] — " + R.PermissionString());
-        else Logger.Error("failed — username may already exist");
+        else Logger.Error("Failed — username may already exist");
         Db.Close();
     }
 
     private static void HandleRemoveOperator(List<String> Args) {
         String User = Helper.Arg(Args, "-u", "-username", null);
         if (User == null) {
-            Logger.Error("usage: -RO | -remove-operator -u | -username <user>");
+            Logger.Error("Usage: -RO | -remove-operator -u | -username <user>");
             return;
         }
         if (User.equals("admin")) {
-            Logger.Error("cannot remove the admin account");
+            Logger.Error("Cannot remove the admin account");
             return;
         }
         TeamDatabase Db = TeamDatabase.Connect(Config);
-        if (Db.DeleteOperator(User)) Logger.Success("operator removed: " + User);
-        else Logger.Error("operator not found: " + User);
+        if (Db.DeleteOperator(User)) Logger.Success("Operator removed: " + User);
+        else Logger.Error("Operator not found: " + User);
         Db.Close();
     }
 
@@ -307,29 +307,29 @@ public final class Start {
         String User = Helper.Arg(Args, "-u", "-username", null);
         String Role = Helper.Arg(Args, "-r", "-role", null);
         if (User == null && Role == null) {
-            Logger.Info("available roles:");
+            Logger.Info("Available roles:");
             for (OperatorRole R : OperatorRole.values()) Logger.Info("  " + R.name() + " — " + R.PermissionString());
             return;
         }
         if (User == null || Role == null) {
-            Logger.Error("usage: -OP | -operator-permission -u | -username <user> -r | -role <ROLE>");
+            Logger.Error("Usage: -OP | -operator-permission -u | -username <user> -r | -role <ROLE>");
             return;
         }
         if (User.equals("admin")) {
-            Logger.Error("cannot change the admin role");
+            Logger.Error("Cannot change the admin role");
             return;
         }
         TeamDatabase Db = TeamDatabase.Connect(Config);
         OperatorRole R = OperatorRole.FromString(Role);
         if (Db.UpdateOperatorRole(User, R)) Logger.Success("Role updated: " + User + " → " + R + " — " + R.PermissionString());
-        else Logger.Error("failed to update role for: " + User);
+        else Logger.Error("Failed to update role for: " + User);
         Db.Close();
     }
 
     private static void AssertCaExists() {
         if (!Files.exists(Paths.get(Config.GetCaPath()))) {
             Logger.Error("CA not found: " + Config.GetCaPath());
-            Logger.Warn("run: java -jar target/raven-3.0.0.jar -i");
+            Logger.Warn("Run: java -jar target/raven-3.0.0.jar -i");
             System.exit(1);
         }
     }
